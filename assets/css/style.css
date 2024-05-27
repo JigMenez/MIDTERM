@@ -1,24 +1,77 @@
 * {
-    padding: 12;
-    margin: 12;
+    padding: 4px;
+    margin: 40px 50px;
 }
 
-.hero,
-.hero * {
-    outline: 2px black dashed;
+.SHEET *{
+    outline: auto;
+    padding: 5;
+    gap: 5;
 }
-
-.hero {
+.treasure {
     display: flex;
-    height: calc(100vh 2rem);
-    padding: 3rem;
-    gap: 2rem;
+    font-size: small;
+    justify-content: space-around;
+    background-color: rgb(169, 218, 238);
+}
 
-    & > div{
-        width: 67;
-    }
+.Sales {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(103, 212, 255);
+}
+.Sales2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    & > img{
-        width: 40;
-    }
+.desc {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(103, 212, 255);
+}
+
+.integ {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(103, 212, 255);
+}
+
+.integ2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(103, 212, 255);
+}
+
+.desc2 {
+    display: flex;
+    background-color: rgb(103, 212, 255);
+}
+
+.good {
+    display: flex;
+    justify-content: center;
+}
+
+.good2 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 119, 176);
+}
+
+.button5 {
+    background-color: #000000;
+    color: aliceblue;
+    
+} /* Black */
+
+.BUTTON {
+    display: flex;
+    justify-content: center;
 }
